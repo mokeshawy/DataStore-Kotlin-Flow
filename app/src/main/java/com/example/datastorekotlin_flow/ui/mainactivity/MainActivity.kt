@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFinish() {
-                binding.tvTimer.text = "done!"
+                binding.tvTimer.text = "done.."
             }
         }.start()
     }
