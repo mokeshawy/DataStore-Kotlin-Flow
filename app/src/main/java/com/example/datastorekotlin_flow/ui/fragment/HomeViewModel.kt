@@ -1,4 +1,4 @@
-package com.example.datastorekotlin_flow.ui.mainactivity
+package com.example.datastorekotlin_flow.ui.fragment
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -8,7 +8,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class MainViewModel
+class HomeViewModel
 @Inject
  constructor(private val dataStoreSetting: DataStoreSetting ) : ViewModel() {
 
